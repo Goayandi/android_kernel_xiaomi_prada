@@ -1,0 +1,7 @@
+#include "msm-audio-prada.dtsi"
+#include "msm8937-camera-prada.dtsi"
+#include "msm8937-camera-sensor-qrd-prada.dtsi"
+#include "msm8937-display-prada.dtsi"
+#include "msm8937-general-prada.dtsi"
+#include "msm8937-memory-prada.dtsi"
+#include "msm8937-regulator-prada.dtsi"

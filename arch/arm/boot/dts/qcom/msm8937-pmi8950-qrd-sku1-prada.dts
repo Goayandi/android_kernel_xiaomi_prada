@@ -26,10 +26,10 @@
 / {
 	qrd_batterydata: qcom,battery-data {
 		qcom,batt-id-range-pct = <15>;
-		#include "land/batterydata-qrd-Desay-4v4-4000mah.dtsi"
-		#include "land/batterydata-qrd-Atl-4v4-4000mah.dtsi"
-		#include "land/batterydata-qrd-Coslight-4v4-4000mah.dtsi"
-		#include "land/batterydata-qrd-feimaotui-4v4-4000mah.dtsi"
+		#include "prada/batterydata-qrd-Desay-4v4-4000mah.dtsi"
+		#include "prada/batterydata-qrd-Atl-4v4-4000mah.dtsi"
+		#include "prada/batterydata-qrd-Coslight-4v4-4000mah.dtsi"
+		#include "prada/batterydata-qrd-feimaotui-4v4-4000mah.dtsi"
 	};
 };
 
@@ -73,4 +73,4 @@
 	};
 };
 
-#include "land/msm8937-land.dtsi"
+#include "prada/msm8937-prada.dtsi"
